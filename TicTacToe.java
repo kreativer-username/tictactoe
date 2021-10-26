@@ -23,7 +23,7 @@ public interface TicTacToe {
      * @throws SymbolBereitsBelegtException, falls das gewaehlte Symbol bereits vergeben ist
      * @throws StateException, wenn nicht im Zustand 2 oder 3
      */
-    Symbol pick(String user, Symbol s) throws SymbolBereitsBelegtException, StateException;
+    Symbol pick(Player user, Symbol s) throws SymbolBereitsBelegtException, StateException;
 
     /**
      * aktuelles Symbol wird auf eine freie Position in dem Spielfeld gesetzt
